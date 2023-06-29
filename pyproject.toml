@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sanitychecks"
+version = "0.1.0"
+description = ""
+authors = ["Josh Loecker <joshloecker@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cobra = {extras = ["array"], version = "^0.26.3"}
+gurobipy = "^10.0.2"
+pandas = "<2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
